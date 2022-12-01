@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 @keyframes sweep {
@@ -74,10 +75,7 @@
 /* index */
 
 .body__index {
-    background-image: url(../img/fondo1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    background-image: url(../img/fondo-test.jpg);
     .titulo__index {
         display: flex;
         align-items: center;
@@ -133,8 +131,8 @@
 
 /* alojamiento */
 .body__alojamiento {
-    background-image: url(../img/fondo3.jpg);
-    background-size: cover;
+    background-image: url(../img/fondo-test.jpg);
+   
 
     .container {
         margin: auto;
@@ -144,15 +142,12 @@
 
 /* Contacto */
 .body__contacto {
-    background-image: url(../img/kayacrio.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/fondo-test.jpg);
 }
 
 /* Fechas */
 .body__fechas {
-    background-image: url(../img/fondo4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/fondo-test.jpg);
 
     details {
         margin: 1rem auto;
@@ -165,6 +160,9 @@
         background-color: #ECEFF1;
         color: #263238;
         transition: background-color 0.15s;
+        img{
+            width: 100%;
+        }
     }
 
     details> :last-child {
@@ -254,6 +252,7 @@
 
 /* Lugares */
 .body__lugares {
+    background-image: url(../img/fondo-test.jpg);
     .lugares {
         margin-top: 100px;
         img {
@@ -265,16 +264,10 @@
 }
 
 .body__quehacer {
-    background-image: url(../img/fondo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(../img/fondo-test.jpg);
 
     .quehacer__main {
         margin-top: 5em;
-
-        h1 {
-            color: rgb(255, 255, 255);
-        }
 
         .card {
             opacity: 0.9;
