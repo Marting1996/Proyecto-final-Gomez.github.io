@@ -75,7 +75,7 @@
 /* index */
 
 .body__index {
-    background-image: url(../img/fondo-test.jpg);
+    background-image: url("../img/fondo-test.jpg");
     .titulo__index {
         display: flex;
         align-items: center;
@@ -131,7 +131,7 @@
 
 /* alojamiento */
 .body__alojamiento {
-    background-image: url(../img/fondo-test.jpg);
+    background-image: url("../img/fondo-test.jpg");
    
 
     .container {
@@ -142,12 +142,12 @@
 
 /* Contacto */
 .body__contacto {
-    background-image: url(../img/fondo-test.jpg);
+    background-image: url("../img/fondo-test.jpg");
 }
 
 /* Fechas */
 .body__fechas {
-    background-image: url(../img/fondo-test.jpg);
+    background-image: url("../img/fondo-test.jpg");
 
     details {
         margin: 1rem auto;
@@ -252,7 +252,7 @@
 
 /* Lugares */
 .body__lugares {
-    background-image: url(../img/fondo-test.jpg);
+    background-image: url("../img/fondo-test.jpg");
     .lugares {
         margin-top: 100px;
         img {
@@ -264,7 +264,7 @@
 }
 
 .body__quehacer {
-    background-image: url(../img/fondo-test.jpg);
+    background-image: url("../img/fondo-test.jpg");
 
     .quehacer__main {
         margin-top: 5em;
