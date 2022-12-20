@@ -5,73 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@keyframes sweep {
-    0% {
-        opacity: 0;
-        transform: translateX(-10px)
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0)
-    }
-}
-
-/* footer */
-
-.footer {
-    .iconos {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        .face img {
-            height: 30px;
-            width: 30px;
-            margin: 10px;
-        }
-
-        .face img:hover {
-            opacity: 0.8;
-        }
-
-        .insta img {
-            height: 30px;
-            width: 30px;
-            margin: 10px;
-        }
-
-        .insta img:hover {
-            opacity: 0.8;
-        }
-
-        .wpp img {
-            height: 30px;
-            width: 30px;
-            margin: 10px;
-        }
-
-        .wpp img:hover {
-            opacity: 0.8;
-        }
-    }
-
-    p {
-        margin-top: 15px;
-        text-align: center;
-        font-size: 13px;
-        color: rgb(29, 25, 25);
-    }
-}
-
-/* navbar */
-.navbar-brand {
-    img {
-        width: 48px;
-        height: 48px;
-    }
-}
-
 /* index */
 
 .body__index {
@@ -143,6 +76,9 @@
 /* Contacto */
 .body__contacto {
     background-image: url("../img/fondo-test.jpg");
+    .contacto{
+        margin-top: 1rem;
+    }
 }
 
 /* Fechas */
@@ -274,10 +210,13 @@
 
             :hover {
                 opacity: 1;
-                border: solid 1px rgb(151, 149, 149);
-            }
+                
+            }   
         }
     }
+    
+    
+
 }
 
 /* index texto */
@@ -385,3 +324,8 @@
         font-weight: normal;
     }
 }
+
+@import "footer";
+@import "keyframes";
+@import "navbar";
+@import "boton";

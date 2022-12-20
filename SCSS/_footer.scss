@@ -1,0 +1,24 @@
+.footer {
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .foot--Icon img{
+            height: 30px;
+            width: 30px;
+            margin: 10px;
+            
+        }
+        img:hover {
+                opacity: 0.8;
+            }
+    }
+
+    p {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+        color: rgb(29, 25, 25);
+    }
+}

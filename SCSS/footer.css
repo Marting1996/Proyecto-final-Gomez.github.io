@@ -1,0 +1,19 @@
+.footer .iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer .iconos .foot--Icon img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.footer .iconos img:hover {
+  opacity: 0.8;
+}
+.footer p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(29, 25, 25);
+}/*# sourceMappingURL=footer.css.map */
